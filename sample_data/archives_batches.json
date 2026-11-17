@@ -1,0 +1,16 @@
+[
+  {"source_org": "华东", "stream": "hd-archive", "batch_no": "2026-004", "batch_seq": 1,
+   "items": [
+     {"voucher_no": "V-001", "apportionment_key": "APPORT-1001", "amount": "500.00",
+      "payload": {"title": "差旅费分摊单", "scan": "hd-2026-004-001.pdf"}},
+     {"voucher_no": "V-002", "apportionment_key": "APPORT-1002", "amount": "300.00",
+      "payload": {"title": "设备购置分摊单", "scan": "hd-2026-004-002.pdf"}}
+   ]},
+  {"source_org": "西北", "stream": "xb-archive", "batch_no": "2026-004", "batch_seq": 1,
+   "items": [
+     {"voucher_no": "V-001", "apportionment_key": "APPORT-1001", "amount": "500.00",
+      "payload": {"title": "差旅费分摊单", "scan": "xb-2026-004-001.pdf"}},
+     {"voucher_no": "V-002", "apportionment_key": "APPORT-1002", "amount": "360.00",
+      "payload": {"title": "设备购置分摊单", "scan": "xb-2026-004-002.pdf"}}
+   ]}
+]

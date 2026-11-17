@@ -10,6 +10,11 @@
 - M4 金额分摊：`/api/allocations/calculate`
 - M5 尾差裁决：`/api/remainders/resolve`
 - M6 批次复核：`/api/export/allocations.csv`
+- M7 档案合库：`/api/archives/ingest`
+
+        ## 合库规则
+
+        异地档案按（来源，批次号，凭证号）归档，原号可查、原件保留；同一分摊键在有效总额中只计一次。金额不一致先隔离；裁决绑定已见来源版本，来源变更或新增异议使旧裁决失效。接收按流检查点断点续传，重放不重复计资；并发接收与裁决不暴露半份汇总。
 
         ## 核心规则
 
